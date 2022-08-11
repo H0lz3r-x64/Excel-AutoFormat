@@ -1,6 +1,12 @@
 # Excel-AutoFormat
 Excel Makro which formats sheet according to settings the user can adjust in the ui and save in config.
 
+As Object oriented as possible before going insane, because VBA doesnt support anything!
+-No Inheritance
+-No Abstract Classes
+-No Constructors which take parameters
+-No Overidable Functions
+~~-No will to live anymore..~~
 VBA is pain
 
 Excel File (Download to start it up diretly)
