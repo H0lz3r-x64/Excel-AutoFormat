@@ -1,10 +1,10 @@
 VERSION 5.00
 Begin {C62A69F0-16DC-11CE-9E98-00AA00574A4F} AutoFormat 
-   Caption         =   "UserForm1"
-   ClientHeight    =   6165
+   Caption         =   "Auto Format"
+   ClientHeight    =   6015
    ClientLeft      =   1260
    ClientTop       =   5025
-   ClientWidth     =   9615
+   ClientWidth     =   9750
    OleObjectBlob   =   "AutoFormat.frx":0000
    StartUpPosition =   2  'Bildschirmmitte
 End
@@ -108,14 +108,17 @@ End Sub
 
 Private Sub btn_interiour_Click()
     Factory.Form_ColourSelect 0, tb_interiour.Value
+    tb_interiour.BorderColor = tb_interiour.Value
 End Sub
 
 Private Sub btn_altInteriour_Click()
     Factory.Form_ColourSelect 1, tb_altInteriour.Value
+    tb_altInteriour.BorderColor = tb_altInteriour.Value
 End Sub
 
 Private Sub btn_textColour_Click()
     Factory.Form_ColourSelect 2, tb_textColour.Value
+    tb_textColour.BorderColor = tb_textColour.Value
 End Sub
 
 
